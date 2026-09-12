@@ -1,0 +1,44 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="GameManager">
+			<method name="GoToMainMenu"/>
+			<method name="GoToMainMenu"/>
+			<method name="GoToMainMenu"/>
+			<method name="GoToMainMenu"/>
+			<method name="GoToMainMenu"/>
+			<method name="GoToMainMenu"/>
+			<method name="GoToMainMenu"/>
+			<method name="GoToMainMenu"/>
+			<method name="GoToMainMenu"/>
+			<method name="NextLevel"/>
+			<method name="NextLevel"/>
+			<method name="NextLevel"/>
+			<method name="OnPlayButton"/>
+			<method name="PlayLevel1"/>
+			<method name="PlayLevel2"/>
+			<method name="PlayLevel3"/>
+			<method name="QuitGame"/>
+			<method name="RestartLevel"/>
+			<method name="RestartLevel"/>
+			<method name="RestartLevel"/>
+			<method name="RestartLevel"/>
+			<method name="RestartLevel"/>
+			<method name="RestartLevel"/>
+			<method name="ResumeGame"/>
+			<method name="ResumeGame"/>
+			<method name="ResumeGame"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.CoreModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.GameObject">
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+		</type>
+	</assembly>
+</linker>

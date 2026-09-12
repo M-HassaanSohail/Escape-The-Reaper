@@ -1,0 +1,30 @@
+[2026-07-08T22:46:22.050Z][INFO] Command-line: D:\\6000.5.0f1\\Editor\\Data\\Resources\\PackageManager\\Server\\UnityPackageManager.exe server -s 17396 --ipc-path Unity-Upm-17396 -l 2 --log-file D:\\EscapeTheReaper/Logs/upm.log
+[2026-07-08T22:46:22.091Z][INFO] IPC server started (IPC path=Unity-Upm-17396).
+[2026-07-08T22:46:22.092Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-17396.
+[2026-07-08T22:46:24.810Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-07-08T22:46:24.883Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-07-08T22:46:24.924Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-07-08T22:46:24.946Z][INFO] config:project:get-registries --> 200 (64 ms)
+[2026-07-08T22:46:24.978Z][INFO] project:list-packages --> 200 (168 ms)
+[2026-07-08T22:46:25.021Z][INFO] project:list-packages --> 200 (97 ms)
+[2026-07-08T22:46:26.226Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-07-08T22:46:26.256Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-07-08T22:46:26.330Z][INFO] project:list-packages --> 200 (103 ms)
+[2026-07-08T22:46:26.358Z][INFO] project:list-packages --> 200 (102 ms)
+[2026-07-08T22:46:26.375Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-07-08T22:46:26.378Z][INFO] config:project:get-registries --> 200 (3 ms)
+[2026-07-08T22:46:27.927Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-07-08T22:46:27.987Z][INFO] project:list-packages --> 200 (60 ms)
+[2026-07-08T22:46:38.482Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-07-08T22:46:38.534Z][INFO] project:list-packages --> 200 (52 ms)
+[2026-07-08T22:46:38.573Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-07-08T22:46:38.576Z][INFO] config:project:get-registries --> 200 (3 ms)

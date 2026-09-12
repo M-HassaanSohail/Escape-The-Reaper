@@ -1,0 +1,978 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - AudioManager
+    - CameraFollow
+    - Coin
+    - GameManager
+    - GhostEnemy
+    - HealthManager
+    - LevelGenerator
+    - LevelSettings
+    - MainMenuController
+    - MobileInput
+    - MovingHazard
+    - PlayerController
+    - ScoreManager
+    - SettingsController
+    - SpikeTrap
+    - Stalker
+    - UIManager
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.CommandLineTest.RunData
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Slider
+    - UnityEngine.UI.Text
+  serializedClasses:
+    Assembly-CSharp:
+    - LevelGenerator/TilePool
+    UnityEngine.CoreModule:
+    - UnityEngine.Color
+    - UnityEngine.Events.ArgumentCache
+    - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
+    - UnityEngine.LayerMask
+    - UnityEngine.Vector2
+    - UnityEngine.Vector3
+    - UnityEngine.Vector4
+    UnityEngine.UI:
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
+    - UnityEngine.UI.FontData
+    - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.Slider/SliderEvent
+    - UnityEngine.UI.SpriteState
+  methodsToPreserve:
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: OnPlayButton
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: PlayLevel1
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: PlayLevel3
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: PlayLevel2
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: QuitGame
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: GoToMainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: ResumeGame
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: GoToMainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: RestartLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: RestartLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: GoToMainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: NextLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: GoToMainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: ResumeGame
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: GoToMainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: RestartLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: RestartLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: GoToMainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: NextLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: GoToMainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: ResumeGame
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: GoToMainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: RestartLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: RestartLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: GoToMainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: NextLevel
+  sceneClasses:
+    Assets/Scenes/Level1.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 146f9f7b2e3203646bbc98f86604fb94, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: ef980877493a7304b8ceb52ec6f4eaa8, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 79f127e1b60ab054f8004ca3852fd392, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: b97a74232fe2bd044b81c087a7887e5f, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: c3edc99da1f638f43b865c69b8edb5b9, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: caff63fb8b12ee04889b7123d7d8f44d, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: e44c4921f1fe30a499262db1647eb0a2, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 17249d2c339e43e4da13d5bc0234bf17, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: e107c556b8ffc824d9a200fce8ad483c, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: ed0e83949505c274daaa7bef8f20a4ef, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: d50a9ed560667a0479eacf32d267b904, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 4876fb3ce7ecced49b9c966109add0a2, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: e95d95f028c185f4abf4c7e74dd2f30e, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 58733ec394b2f9f41b7a47259d0eb419, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 52b51a7bab868a7499f415b83e633fd8, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 143
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Level2.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 146f9f7b2e3203646bbc98f86604fb94, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: ef980877493a7304b8ceb52ec6f4eaa8, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 79f127e1b60ab054f8004ca3852fd392, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: b97a74232fe2bd044b81c087a7887e5f, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: c3edc99da1f638f43b865c69b8edb5b9, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: caff63fb8b12ee04889b7123d7d8f44d, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: e44c4921f1fe30a499262db1647eb0a2, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 17249d2c339e43e4da13d5bc0234bf17, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: e107c556b8ffc824d9a200fce8ad483c, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: ed0e83949505c274daaa7bef8f20a4ef, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: d50a9ed560667a0479eacf32d267b904, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 4876fb3ce7ecced49b9c966109add0a2, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: e95d95f028c185f4abf4c7e74dd2f30e, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 58733ec394b2f9f41b7a47259d0eb419, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 52b51a7bab868a7499f415b83e633fd8, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 143
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Level3.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 146f9f7b2e3203646bbc98f86604fb94, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: ef980877493a7304b8ceb52ec6f4eaa8, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 79f127e1b60ab054f8004ca3852fd392, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: b97a74232fe2bd044b81c087a7887e5f, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: c3edc99da1f638f43b865c69b8edb5b9, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: caff63fb8b12ee04889b7123d7d8f44d, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: e44c4921f1fe30a499262db1647eb0a2, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 17249d2c339e43e4da13d5bc0234bf17, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: e107c556b8ffc824d9a200fce8ad483c, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: ed0e83949505c274daaa7bef8f20a4ef, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: d50a9ed560667a0479eacf32d267b904, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 4876fb3ce7ecced49b9c966109add0a2, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: e95d95f028c185f4abf4c7e74dd2f30e, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 58733ec394b2f9f41b7a47259d0eb419, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 52b51a7bab868a7499f415b83e633fd8, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 143
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/MainMenu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 146f9f7b2e3203646bbc98f86604fb94, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: b97a74232fe2bd044b81c087a7887e5f, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 850a403287777074d81d5138c0dbf763, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 750eb88319d267f40ad5858174397a7f, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 52b51a7bab868a7499f415b83e633fd8, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: dd9dda1dfd39e605c49e72003342ef5d
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 1329853585ebb677029d94b8a30a14b1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Coin
+  - hash:
+      serializedVersion: 2
+      Hash: 0373072f73da3b443ef58fa71700a69c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GameManager
+  - hash:
+      serializedVersion: 2
+      Hash: 28fd3d045acc780719a17f02073eb448
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 097231528d257b2c6024efbb14ce7960
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Stalker
+  - hash:
+      serializedVersion: 2
+      Hash: fe134423ffdddf65b1898f77221e1bae
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GhostEnemy
+  - hash:
+      serializedVersion: 2
+      Hash: 33f160a5c07e580c29aba2bd1e4db811
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 5874b789cd9832847c61ebfa803213af
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UIElements
+    className: PanelEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: fef7b1de2fd1557ad8228e9840b78b9c
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: e8d390bd9ecacc453a7500b90d0c0292
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 5ebc58ec194dd44630b25fcc270ad4af
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 4fcf0bb4aff1d14a1dfcdedc4b07bd05
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 8703b6ae2b0eefd9dafbc44d8d333fb1
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 912e022d278db5f812bc102092821984
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LevelGenerator
+  - hash:
+      serializedVersion: 2
+      Hash: 1ab136900c0edaeeb49424c852595030
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: e987953190eb4c12cf19df790566dc2c
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 7898242121999e3e6f15da9bc9b66aaa
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: HealthManager
+  - hash:
+      serializedVersion: 2
+      Hash: 5a4aa2850fe11587f47e34c270c7fd22
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 8e6dc3d79712ca4934f6d50c80f010b1
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: cf32d98954e63b8e30e9334b152e9b8e
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: b747f5d40674055dd70e18552f1b0447
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 7053e305cdc1eb560f4c3be49d3b5136
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: e7e95903ca66d58e1a7cbd71f824e16d
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 810e3c228b295cc60c4de2cdd94b18cb
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71b427939d9006c727a5275a2d674d51
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIManager
+  - hash:
+      serializedVersion: 2
+      Hash: 15fbaf567ef27d7ad54a77e7de40079f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: RaycastReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: e6b258489c88376c5869946b2735e7e5
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: b5007673bbbdb9d12597a1d8201370f5
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 18ba8b8b24c54aaf18187baea921759b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CameraFollow
+  - hash:
+      serializedVersion: 2
+      Hash: 33656f83bb0079184b2206a69690ec46
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 9104447b683bf70406fa01f12ecb564a
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: d5cd7f207e91ca8336c65a577a6fb2a0
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 68bd03d0c1431ce7ad005c028878a66f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerController
+  - hash:
+      serializedVersion: 2
+      Hash: 479267e7a82e51035bcd5a6316593067
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ScoreManager
+  - hash:
+      serializedVersion: 2
+      Hash: 55060a7bf226ac385ce19ebd450f199f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UIElements
+    className: PanelRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 8dff8e9853297d341afa0c11f9091b59
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 00bbd9db8634496d079d17711b2ff7c4
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 915204dac8acad99f076d6e72ada0a0f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 999ec126b5cbe7a9728c32f41b049731
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 2610b10f1a43e592de3e706b05fcda40
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MobileInput
+  - hash:
+      serializedVersion: 2
+      Hash: fec82be45de19d56fdcfd9f76f586d55
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MovingHazard
+  - hash:
+      serializedVersion: 2
+      Hash: bfa9d6dfbc3c74a843a3b197bdcc6639
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 8dc40a01667ca02b3354a4e7a61be082
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 10c17b309bdca62b4d7fbaf113ed4ca0
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 13f262cc0741566a7ab72682984bc3e1
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: e873aa258ac90fe78a1cce0b9aa2e8b1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SettingsController
+  - hash:
+      serializedVersion: 2
+      Hash: 20a120e55ad3ab65556328d5fd8309dd
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 4878e735441f4041539853759559c86f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: afb7b65d28d5a7423e69a1b076be0064
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: 1553f209ae0b2d5d3a35685fca55f9c3
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 427698f2d08026cb2dd8f21201a3d207
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LevelSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 8d5318ed8488b1fe17c08044ce1b8309
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: e18dfd2b913b09fbbb2405165a2e6a44
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 3b5263a98bcc71d9a9d1d78a31b34ced
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: a1ac4c50e55874de16eee3db71aa9784
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: d41ab9b5ea92474f9c0a6937a0607ce1
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: f34cc490b6857195b9cdb30787d4b96f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UIElements
+    className: WorldDocumentRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 185e7bacfbbc5defefa609c70f7ff4ce
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 1a680d9a08de79b0d2c779e78c9843b4
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 028760546da34b1ba81ef539c5e48dcc
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AudioManager
+  - hash:
+      serializedVersion: 2
+      Hash: e6ee7dccba41ae87d10e3d922c6cb71c
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 53e329840e6d03aebec76623c3b054db
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 540882762544409cc4530e60db00e951
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 50ae684c31948c85049c29f444403566
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SpikeTrap
+  - hash:
+      serializedVersion: 2
+      Hash: a90f6a00b23520788be7d89ee3b0773d
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 8bbce9932f67ad8e7f4eefec87800f94
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: d0cdd713f9bf4e6a625d9e7804deca42
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 42b9b2ce4fc031a291131604ef4e123b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MainMenuController
+  platform: 19
+  scenePathNames:
+  - Assets/Scenes/MainMenu.unity
+  - Assets/Scenes/Level1.unity
+  - Assets/Scenes/Level2.unity
+  - Assets/Scenes/Level3.unity
+  nativeClasses: 
+  playerPath: C:/Users/hassa/OneDrive/Desktop/game project/build game/Escape the
+    Reaper.exe
