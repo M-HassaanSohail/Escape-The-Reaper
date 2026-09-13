@@ -1,4 +1,4 @@
-[README (1).md](https://github.com/user-attachments/files/32145735/README.1.md)
+
 # Escape the Reaper
 
 A 3D hyper-casual lane-runner built in Unity. Run, jump, and slide through a haunted world while a reaper-like stalker trails you the entire way — collect coins, survive as long as you can, and spend your coins on new character skins.
